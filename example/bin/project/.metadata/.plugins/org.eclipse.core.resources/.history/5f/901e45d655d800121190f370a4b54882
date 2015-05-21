@@ -1,0 +1,393 @@
+import java.util.Scanner;
+
+public class ClassSelection {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		int choice;
+		int option;
+		String next;
+		
+		System.out.println("Welcome to my game: Overthrow!");
+		System.out.println("The object of the game is to defeat enemies and reach the king's castle.");
+		System.out.println("There you will attempt to overthrow the king.");
+		System.out.println("At each enemy, you will have a variety of means to kill it.");
+		System.out.println("Only one of the four options will work.");
+		System.out.println("Two will lead to your demise, so choose carefully!");
+		System.out.println("The last option will allow for you to flee, but fail the game");
+		System.out.println("You have only ONE LIFE, so be thoughtful and calculate the risk of your decision!");
+		System.out.println("Type 'next' to continue");
+		next = input.nextLine();
+		
+		if (next == "next" || next == "Next");{
+		 do {
+			 
+		System.out.println(" ");
+		System.out.println("Select your player by typing in the number associated with it.");
+		System.out.println("(1) Archer");
+		System.out.println("(2) Wizard");
+		System.out.println("(3) Warrior");
+		choice = input.nextInt();
+		
+		int roll = choice;
+			
+			
+		switch (roll) {
+		case 1 :
+		System.out.println(" ");
+		System.out.println("You selected Archer");
+		System.out.println(">>====> >>====> >>====> >>====>");
+		break;
+		
+		case 2 :
+		System.out.println(" ");	
+		System.out.println("You selected Wizard");
+		System.out.println("=====------ ~~~~~~~~~~~~~~~~~~~");
+		break;
+		
+		case 3 :
+		System.out.println(" ");
+		System.out.println("You selected Warrior");
+		System.out.println("O===|EEEEEEEEEE>");
+		break;
+		
+		default :
+	 	System.out.println(" ");
+		System.out.println("Your number does not have an associated class.");
+		
+		}
+		
+		System.out.println(" ");
+		System.out.println("Would you like to select a different character?");
+		System.out.println("Each character provides different means of killing enemies.");
+		System.out.println("(1) Yes, I want to choose a new character");
+		System.out.println("(2) No, I want to start");
+		option = input.nextInt();        }//end do
+		
+		while (option == 1);
+		 
+		 System.out.println(" ");
+		 System.out.println("Ok! Good Luck!");
+		 System.out.println(" ");
+		 System.out.println("First, you encounter a fire-breathing dragon! Will you...");
+		
+		 if (choice == 1){
+			 
+			int dragonchoice1;
+			
+		 	System.out.println("(1) Stab with your dagger");
+		 	System.out.println("(2) Shoot at the eyes");
+		 	System.out.println("(3) Shoot at the wings");
+		 	System.out.println("(4) Flee");
+		 	dragonchoice1 = input.nextInt();
+		 	
+		 	int roll = dragonchoice1;
+		 			
+		 	switch (roll){
+		 	case 1 :
+		 		System.out.println(" ");
+		 		System.out.println("The dragon flys up and scorches you!");
+		 		System.out.println("You have died");
+		 	break;
+		 	
+		 	case 2:
+		 		System.out.println(" ");
+		 		System.out.println("The dragon dodges and scorches you!");
+		 		System.out.println("You have died");
+		 	break;
+		 	
+		 	case 3:
+		 		System.out.println(" ");
+		 		System.out.println("The dragon's wing is torn! He cannot escape, and you stab him with your dagger!");
+		 		System.out.println("Victory!");
+		 	break;
+		 	
+		 	case 4:
+		 		System.out.println(" ");
+		 		System.out.println("You escaped with your life, but failed");
+		 		break;}
+		 	
+		 		if (dragonchoice1 == 3){
+		 			
+		 		int giantchoice1;	
+		 		
+		 			System.out.println(" ");
+		 			System.out.println("Next, you encounter a huge giant. Will you...");
+		 			System.out.println("(1) Climb up the legs and stab with your dagger");
+				 	System.out.println("(2) Shoot at the eyes");
+				 	System.out.println("(3) Shoot at the knees");
+				 	System.out.println("(4) Flee");
+				 	giantchoice1 = input.nextInt();
+				 	
+				 	int roll2 = giantchoice1;
+				 	
+				 	switch (roll2){
+				 	case 1:
+				 		System.out.println(" ");
+				 		System.out.println("The giant flings you off before you can make your move.");
+				 		System.out.println("You are flung high into the sky, and die when you land.");
+				 		System.out.println("You have died");
+				 	break;
+				 
+				 	case 2:
+				 		System.out.println(" ");
+				 		System.out.println("The clumsy giant is too slow to react, and he is hit.");
+				 		System.out.println("Victory!");
+				 	break;
+				 		
+				 	case 3:
+				 		System.out.println(" ");
+				 		System.out.println("The arrow does not pierce the knee. ");
+				 		System.out.println("You can't reload fast enough, and are crushed.");
+				 		System.out.println("You have died");
+				 	break;
+				 	
+				 	case 4:
+				 		System.out.println(" ");
+				 		System.out.println("You escaped with your life, but failed");
+				 		break;}
+				 	
+				 		
+		 				if (giantchoice1 == 2){
+		 	
+		 					int hydrachoice1 = 0;
+		 				 		
+		 				 			System.out.println(" ");
+		 				 			System.out.println("Next, you encounter a many-headed hydra. Will you...");
+		 				 			System.out.println("(1) Shoot at all of the heads");
+		 						 	System.out.println("(2) Shoot at the heart");
+		 						 	System.out.println("(3) Lure it away and shoot it in the back");
+		 						 	System.out.println("(4) Flee");
+		 						 	hydrachoice1 = input.nextInt();
+		 						 	
+		 						 	int roll3 = hydrachoice1;
+		 						 	
+		 						 	switch (roll3){
+		 						 	case 1:
+		 						 		System.out.println(" ");
+		 						 		System.out.println("The hydra eats you before you can shoot even two.");
+		 						 		System.out.println("You simply can't reload fast enough.");
+		 						 		System.out.println("You have died");
+		 						 	break;
+		 						 
+		 						 	case 2:
+		 						 		System.out.println(" ");
+		 						 		System.out.println("The hydra is killed instantly from the arrow to the heart.");
+		 						 		System.out.println("Victory!");
+		 						 	break;
+		 						 		
+		 						 	case 3:
+		 						 		System.out.println(" ");
+		 						 		System.out.println("The hydra follows your bait. You rush out to shoot it. ");
+		 						 		System.out.println("Unfortunately, some heads are turned backwards, and see you.");
+		 						 		System.out.println("You have died");
+		 						 	break;
+		 						 	
+		 						 	case 4:
+		 						 		System.out.println(" ");
+		 						 		System.out.println("You escaped with your life, but failed");
+		 						 		break;}
+		 						 	
+		 						 		if (hydrachoice1 == 2){
+		 							 			
+		 								 		int robotchoice1;	
+		 								 		
+		 								 			System.out.println(" ");
+		 								 			System.out.println("You are nearing the castle of the king!");
+		 								 			System.out.println("A robot servant guards the gate. Will you...");
+		 								 			System.out.println("(1) Shoot at the central control box");
+		 										 	System.out.println("(2) Cut the wires inside, piercing the shell");
+		 										 	System.out.println("(3) Shoot at the joints");
+		 										 	System.out.println("(4) Flee");
+		 										 	robotchoice1 = input.nextInt();
+		 										 	
+		 										 	int roll4 = robotchoice1;
+		 										 	
+		 										 	switch (roll4){
+		 										 	case 1:
+		 										 		System.out.println(" ");
+		 										 		System.out.println("The robot's control box is better protected that you thought.");
+		 										 		System.out.println("You are killed within instants.");
+		 										 		System.out.println("You have died");
+		 										 	break;
+		 										 
+		 										 	case 2:
+		 										 		System.out.println(" ");
+		 										 		System.out.println("You charge the robot, but are instantly killed by its laser.");
+		 										 		System.out.println("You have died");
+		 										 	break;
+		 										 		
+		 										 	case 3:
+		 										 		System.out.println(" ");
+		 										 		System.out.println("The robot takes the hit and topples to the ground.");
+		 										 		System.out.println("He is rendered useless, and you slip by.");
+		 										 		System.out.println("Victory!");
+		 										 	break;
+		 										 	
+		 										 	case 4:
+		 										 		System.out.println(" ");
+		 										 		System.out.println("You escaped with your life, but failed");
+		 										 		break;}
+		 										 	
+		 										    if (robotchoice1 == 3){
+		 										    	System.out.println(" ");
+		 										    	System.out.println("You enter the palace, gazing up at the high arched ceiling above you.");
+		 										    	System.out.println("The evil king sits on the throne, a glittering masterpeice of gold and ivory.");
+		 										    	System.out.println("Extravagant tapestries and expensive china platters are everywhere.");
+		 										    	System.out.println(" ");
+		 										 		System.out.println("'Your reign has ended, king!' you say, 'It is time for your rule over this land to end!'");
+		 										 		System.out.println(" ");
+		 										 		System.out.println("'Oh, really?' he replies, 'You will have to fight me for it!'");
+		 										 		System.out.println(" ");
+		 										 		System.out.println("'That's just what I came here to do,' you say.");
+		 										    }
+		 										 		
+		 								 				
+		 						 		}
+		 						 	
+		 						 		
+		 				 				
+		 				}
+		 			
+		 			
+		 			
+
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		 		
+		}}}}}

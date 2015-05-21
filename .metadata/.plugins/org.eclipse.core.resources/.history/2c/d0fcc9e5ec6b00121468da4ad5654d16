@@ -1,0 +1,227 @@
+/**
+ * Caesar Cipher prompts the user for input:
+ * 	the message to be enciphered or deciphered
+ * 	whether the message is to be enciphered or deciphered
+ * 	a letter to use as a key
+ * 
+ * It then does the enciphering/deciphering and lets the 
+ * user know what the message is when enciphered or deciphered 
+ * using that key.
+ * 
+ * The user can continue to encipher/decipher messages
+ * as long as they choose.
+ */
+
+import java.util.Scanner;
+
+
+public class CaesarCipherStartup {
+
+	/**
+	 * The main method controls the program, but calls upon a helper method
+	 * to do the actual enciphering/deciphering.  It is up to the main 
+	 * method to interact with the user to get the input and display
+	 * the output.
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		//the user can continue to encipher/decipher messages until play
+		//becomes false
+		boolean play = true;
+		
+		//Used to get input from the user via the keyboard
+		Scanner keyboard = new Scanner(System.in);
+		
+		//the main loop that prompts the user for input and displays
+		//the output, until the user is tired of enciphering/deciphering
+		do{
+			//Prompt the user for the message
+			
+			
+			System.out.println("Type your message");
+			
+			//Gets the message, however many words, up to when the
+			//user hits enter
+			String message = keyboard.nextLine();
+			
+			
+			//Prompt the user for whether s/he wants to encode or decode
+			
+			
+			System.out.println("Press 'e' to encode or 'd' to decode");
+			
+			//get the next token, (everything up to the next white space)
+			String encode = keyboard.next();
+			
+			//We need to get the first letter entered, in case they
+			//entered more than one letter, and compare it to 'e'
+			
+			//So we only need to compare it to the lower case, we
+			//convert the input to all lower case
+			encode = encode.toLowerCase();
+			
+			//Then we get the first character
+			char first = encode.charAt(0);
+			
+			//You need a variable to hold whether we're enciphering or 
+			//deciphering
+			
+			
+			
+			
+			if(first == 'e'){//if it's e, then we're enciphering
+				//What should happen here?
+
+				
+				
+			}
+			
+			
+			//Now we prompt the user for the key
+			
+			
+			
+			
+			//And get it from the user's input
+			String keyString = keyboard.next();
+			char key = keyString.charAt(0);
+			String second = " ";
+			//Invoke the cipher method (and store the result)
+
+			for(int i = 0; i<message.length();i++)
+				{int letterRep = (int)(message.charAt(i));        //s is declared as int and set to the ASCII value of the
+			//i positioned letter
+				System.out.println("letterRep = " + letterRep);
+				System.out.println("Key = " + key);
+				if(letterRep >= 65 && letterRep <=90)   //Checks if s is within the appropriate range
+					letterRep-=65;
+					letterRep+=(key-65);                             //if so 32 is added to s's value
+                      //if so 32 is subtracted from s's value
+					letterRep+=65
+				second += (char)letterRep; 
+			}
+			System.out.println(second);  
+			
+			
+			
+			//Invoke the cipher method (and store the result)
+			
+			
+			
+			
+			
+			//Display the result to the user 
+			
+			
+			
+			
+			
+			
+			
+			
+			//Find out if the user wants to continue
+			System.out.println("Do you wish to encode or decode another message?");
+			String answer = keyboard.next();
+			answer = answer.toLowerCase();
+			
+			if(answer.charAt(0) != 'y')//we only continue if they say yes
+				play = false;
+		}while(play);//loop continues as long as play is true
+		
+		//We only get here after they no longer say yes
+		System.out.println("Hope you had fun!");
+	}//end main
+	
+	
+	/**
+	 * The cipher method takes the message, the key and whether you're
+	 * enciphering or deciphering, and it returns the enciphered/deciphered
+	 * message using that key
+	 * 
+	 * @param base message to be enciphered or deciphered
+	 * @param key the letter to be used to determine the shift
+	 * @param encipher true if the message is to be enciphered, false otherwise
+	 * @return the enciphered/deciphered code, all in upper case
+	 */
+	private static String cipher(String base, char key, boolean encipher){
+		
+		//First you need to convert the key from a character to an int
+		//between 0 and 25 to determine the shift.  Remember that it
+		//may be an upper or a lower case letter.  (The value held in 
+		//a char is the Unicode value for that character. You can also 
+		//use the Ascii codes since the upper and lower case letters 
+		//are all in the Ascii set, which is a subset of Unicode.)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//We convert the string to all the same case so we can shift them
+		//all the same amount
+		base = base.toUpperCase();
+		
+		//We start out with an empty String, and in a loop we'll add one character
+		//at a time as we convert it.
+		String result = "";
+		
+		//In this loop we'll go letter by letter, converting each one
+		for(int i=0; i< base.length(); i++){
+			
+			//First we need to get the next char to be converted
+			char current = base.charAt(i);
+			
+			//Next we need to convert the value to an int
+			
+			
+			
+			
+			//Assuming it is a letter, (rather than punctuation or white space)
+			//we need to shift it.  Any letter you're starting with will be 
+			//between 65 (A) and 90(Z).  You'll need to use the key to shift
+			//it, remembering that A follows Z when enciphering, and Z follows
+			//A when deciphering.  When you encipher, you add the key, shifting
+			//it right, (so if the key is 3 and the letter is B, it is encoded
+			//as E).  And when you decipher, you subtract the key, shifting
+			//it left.
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			//Finally, you add the shifted letter to the result String
+			
+			
+			
+		}//end of loop
+
+		//We're done, return the enciphered/deciphered code
+		return result;
+	}//end of cipher
+
+}

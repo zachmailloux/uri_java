@@ -1,0 +1,13 @@
+
+public class firstExample {
+
+	
+	public static void main(String[] args) {
+		int age = 22;
+		String name = "Grom";
+		System.out.println("His name is " + name + " and he is " + age + " years old!");
+		
+
+	}
+
+}

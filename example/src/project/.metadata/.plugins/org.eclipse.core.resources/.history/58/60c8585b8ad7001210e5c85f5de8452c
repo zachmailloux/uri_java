@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+public class Ideas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		String answer1;
+		String answer2;
+		String answer3;
+		String answer4;
+		String answer5;
+		
+		//read input from console
+				System.out.print("Welcome to TRIVIA!!!!!!!! /n Q1: What is the name of this program's creator?");
+				answer1 = input.nextLine();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

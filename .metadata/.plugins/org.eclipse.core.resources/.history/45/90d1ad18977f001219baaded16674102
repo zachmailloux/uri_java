@@ -1,0 +1,34 @@
+import java.awt.Frame;
+import java.util.Scanner;
+import java.awt.Graphics;
+public class game extends Frame{
+
+
+	public int face = 0;
+	public int x = 0;
+	public int y = 0; 
+	die dice;
+	
+	public game(){
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Enter the die face number"); //Prints prompt
+		face = keyboard.nextInt();
+		System.out.println("Enter a x coordinate"); //Prints prompt
+		x = keyboard.nextInt(); 
+		System.out.println("Enter a y coordinate"); //Prints prompt
+		y = keyboard.nextInt(); 
+		setSize(300,300);
+		setTitle("To the Window, to the Wall");
+		setResizable(false);
+		setVisible(true);
+		rollDie(face,x,y);
+	}
+	public void rollDie(int dieface, int diex, int diey){
+	dice = new die(dieface, diex, diey);	
+	}
+	public void paint(Graphics pane){
+		if (dice != null){
+			dice.paint(pane);
+		}
+	}
+}

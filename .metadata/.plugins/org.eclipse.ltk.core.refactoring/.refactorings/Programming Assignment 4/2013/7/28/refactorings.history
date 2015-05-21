@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;main.java&apos; to &apos;Wizard/src/(default package)&apos;&#x0A;- Original project: &apos;Programming Assignment 4&apos;&#x0A;- Destination element: &apos;Wizard/src/(default package)&apos;&#x0A;- Original element: &apos;main.java&apos;" description="Copy compilation unit" destination="=Wizard/src&lt;" element1="/src&lt;{main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1373383858432" units="1" version="1.0"/>
+</session>

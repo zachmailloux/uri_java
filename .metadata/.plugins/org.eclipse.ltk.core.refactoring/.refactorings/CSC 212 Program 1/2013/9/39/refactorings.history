@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;myCollection.java&apos; to &apos;CSC 212 Program 2/src/(default package)&apos;&#x0A;- Original project: &apos;CSC 212 Program 1&apos;&#x0A;- Destination element: &apos;CSC 212 Program 2/src/(default package)&apos;&#x0A;- Original element: &apos;myCollection.java&apos;" description="Copy compilation unit" destination="=CSC 212 Program 2/src&lt;" element1="/src&lt;{myCollection.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1380302742787" units="1" version="1.0"/>
+</session>

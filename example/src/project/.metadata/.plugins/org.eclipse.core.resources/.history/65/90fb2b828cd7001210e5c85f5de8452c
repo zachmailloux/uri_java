@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+public class Ideas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		String answer1;
+		String answer2;
+		String answer3;
+		String answer4;
+		String answer5;
+		
+		//read input from console
+				System.out.println("Welcome to TRIVIA!!!!!!!!");
+				
+				System.out.println("Q1: What is the name of this program's creator?");
+				answer1 = input.nextLine();
+				
+				String Carson = answer1;
+						
+				if (answer1 == Carson){
+					System.out.println("Q2: Where is Carson from? (city):");
+				answer2 = input.nextLine();}
+
+				
+				else{
+					System.out.println("Incorrect!");}
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

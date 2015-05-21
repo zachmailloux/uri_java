@@ -1,0 +1,124 @@
+/*
+	Author:	Matt Oliver
+
+	File:	Abutton.java
+*/
+
+import java.awt.*;
+
+public class Abutton
+{
+	//
+	//	Default constructor.
+	//
+	public Abutton()
+	{										//	By default, we create a button
+		this("?????",						//		with a questionable label,
+			 Color.black,					//		in plain black
+			 43, 47,						//		at an arbitrary location,
+			 143, 147);						//		and with an arbitrary size,
+	}
+
+	//
+	//	Most specific constructor.
+	//
+	public Abutton(String someLabel,
+				   Color someColor,
+				   int someX, int someY,
+				   int someWidth, int someHeight)
+	{										//	We create a button
+		setup(someLabel,					//		with a given label,
+			  someColor,					//		in a given color
+			  someX, someY,					//		at a given location,
+			  someWidth, someHeight);		//		and with a given size,
+	}
+
+	//
+	//	Initializes (or re-sets) the components of a button.
+	//
+	public void setup(String someLabel,
+					  Color someColor,
+					  int someX, int someY,
+					  int someWidth, int someHeight)
+	{
+		label = someLabel;
+		color = someColor;
+		x = someX;
+		y = someY;
+		width = someWidth;
+		height = someHeight;
+		up = false;							//	Initially, the button is not up
+	}
+
+	/**
+	 * flips the up/down state of the button
+	 */
+	public void flip()
+	{
+		//for you to complete
+		
+		if(up == false){
+			up = true;
+		}else{
+			up = false;
+		}
+		
+		
+	}
+
+	/**
+	 *	Determines if a given point is inside a button.
+	 *	Note:  The boundary is considered within (inside) the button.
+	 */
+	public boolean isInside(int someX, int someY)
+	{
+		//if a click is within a button that button will flip
+		
+		if((someX > x && someX < x+width)&&(someY > y && someY < y+height)){
+			
+			flip();
+			return true;
+			
+		}else{
+			return false;
+		}
+		
+		
+		
+		
+							
+	}
+
+	/**
+	 *	Draws/paints the button
+	 */
+	public void paint(Graphics pane)
+	{
+		final int DELTA = 2;				//	To define the space between the
+											//		frame and the inside of a button
+
+		pane.setColor(Color.black);			//	Drawing the button frame
+		pane.drawRect(x, y, width, height);	//		in black,
+
+		pane.setColor(color);				//		and the inside of the button
+		pane.fill3DRect(x + DELTA, y + DELTA,	//	in the given color
+						width - (2*DELTA - 1),
+						height - (2*DELTA - 1),
+						up);
+
+		pane.setColor(Color.black);			//	Finally, we put the label in black
+											//		... and nicely centered
+		int labelWidth = pane.getFontMetrics().stringWidth(label);
+		int labelHeight = pane.getFontMetrics().getAscent();
+		pane.drawString(label,
+						x + (width - labelWidth)/2,
+						y + (height + labelHeight)/2);
+	}
+
+	private String label;					//	To hold the label,
+	private Color color;					//		the color,
+	private int x, y,						//		the location,
+				width, height;				//		and the size of the button
+
+	private boolean up;						//	To know if the button is up or not
+}

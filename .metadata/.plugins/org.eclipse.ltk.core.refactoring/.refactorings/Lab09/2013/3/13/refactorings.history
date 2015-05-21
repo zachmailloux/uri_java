@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;place&apos; in &apos;Shapes&apos; to &apos;shapeCount&apos;&#x0A;- Original project: &apos;Lab09&apos;&#x0A;- Original element: &apos;Shapes.place&apos;&#x0A;- Renamed element: &apos;Shapes.shapeCount&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;place&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{Shapes.java[Shapes^place" name="shapeCount" references="true" setter="false" stamp="1364502998358" textual="false" version="1.0"/>
+</session>

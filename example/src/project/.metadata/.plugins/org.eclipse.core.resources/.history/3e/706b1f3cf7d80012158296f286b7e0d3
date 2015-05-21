@@ -1,0 +1,87 @@
+import java.util.Scanner;
+
+public class ClassSelection {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		int choice;
+		int option;
+		String next;
+		
+		System.out.println("Welcome to my game: Overthrow!");
+		System.out.println("The object of the game is to defeat enemies and reach the king's castle.");
+		System.out.println("There you will attempt to overthrow the king.");
+		System.out.println("At each enemy, you will have a variety of means to kill it.");
+		System.out.println("Only one of the four options will work.");
+		System.out.println("Two will lead to your demise, so choose carefully!");
+		System.out.println("The last option will allow for you to flee, but fail the game");
+		System.out.println("Remember be thoughtful and calculate the risk of your decision!");
+		System.out.println("Type 'next' to continue");
+		next = input.nextLine();
+		
+		if (next == "next");{
+		 do {
+			 
+		System.out.println(" ");
+		System.out.println("Select your player by typing in the number associated with it.");
+		System.out.println("(1) Archer");
+		System.out.println("(2) Wizard");
+		System.out.println("(3) Warrior");
+		choice = input.nextInt();
+		
+		int roll = choice;
+			
+			
+		switch (roll) {
+		case 1 :
+		System.out.println(" ");
+		System.out.println("You selected Archer");
+		System.out.println(">>====> >>====> >>====> >>====>");
+		break;
+		
+		case 2 :
+		System.out.println(" ");	
+		System.out.println("You selected Wizard");
+		System.out.println("=====------ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~");
+		break;
+		
+		case 3 :
+		System.out.println(" ");
+		System.out.println("You selected Warrior");
+		System.out.println("o==|EEEEEEEEEE>   |>");
+		break;
+		
+		default :
+	 	System.out.println(" ");
+		System.out.println("Your number does not have an associated class.");
+		
+		}
+		
+		System.out.println(" ");
+		System.out.println("Would you like to select a different character?");
+		System.out.println("Each character provides different means of killing enemies.");
+		System.out.println("(1) Yes, I want to choose a new character");
+		System.out.println("(2) No, I want to start");
+		option = input.nextInt();        }//end do
+		
+		while (option == 1);
+		 
+		 System.out.println(" ");
+		 System.out.println("Ok! Good Luck!");
+		 System.out.println(" ");
+		 System.out.println("First, you encounter a fire-breathing dragon! Will you...");
+		
+		 if (choice == 1){ //archer start
+		 }
+		 if (choice == 2){ //wizard start
+		 } 
+		 if (choice == 3){ //warrior start
+		 }
+		}}}
+			

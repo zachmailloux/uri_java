@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class SeasonChecker{
+
+	/**
+	 * @param 
+	 */
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		
+		String month;
+		
+		System.out.println("Enter any month: ");
+		month = input.nextLine();
+		
+	if(month.equals("December") || month.equals("January") || month.equals("February")){
+		System.out.println("It's Winter!");
+		}
+	else if(month.equals("March") || month.equals("April") || month.equals("May")){
+		System.out.println("It's Spring!");
+	}
+	else if(month.equals("June") || month.equals("July") || month.equals("August")){
+		System.out.println("It's Summer!");	
+	}	
+	else if(month.equals("September") || month.equals("October") || month.equals("November")){
+		System.out.println("It's Fall!");
+	}
+	else{
+		System.out.println("What world do you live on?");
+	}}
+	
+
+
+
+
+
+}

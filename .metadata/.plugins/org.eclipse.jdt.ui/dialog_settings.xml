@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/Users/zacharymailloux/Downloads/javamail-1.4.7" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="delegateUpdating"/>
+	<item value="/Volumes/DISK_IMG/FinalProject" key="org.eclipse.jdt.ui.last.external.project"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;1&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1359054755002&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="true" key="linkWithEditor"/>
+		<item value="1" key="rootMode"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_main"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="private" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="/Users/zacharymailloux/Documents/workspace/Copy of CSC 212 FINAL/javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.6" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="/Users/zacharymailloux/Documents/workspace/CSC%20212%20FINAL/doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="CSC 212 P1">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 P1/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 P1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 Program 2 hoop">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 2 hoop/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 2 hoop/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Classwork">
+				<item value="/Users/zacharymailloux/Documents/workspace/Classwork/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Classwork/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="StoryLine">
+				<item value="/Users/zacharymailloux/Documents/workspace/StoryLine/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/StoryLine/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Labtwo">
+				<item value="/Users/zacharymailloux/Documents/workspace/Labtwo/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Labtwo/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="methodwork">
+				<item value="/Users/zacharymailloux/Documents/workspace/methodwork/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/methodwork/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="exam 2 practice">
+				<item value="/Users/zacharymailloux/Documents/workspace/exam 2 practice/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/exam 2 practice/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab07dversion">
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab07dversion/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab07dversion/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FinalPractice">
+				<item value="/Users/zacharymailloux/Documents/workspace/FinalPractice/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/FinalPractice/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Copy of CSC 212 FINAL">
+				<item value="/Users/zacharymailloux/Documents/workspace/Copy of CSC 212 FINAL/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC%20212%20FINAL/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="LAb07">
+				<item value="/Users/zacharymailloux/Documents/workspace/LAb07/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/LAb07/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="GUI">
+				<item value="/Users/zacharymailloux/Documents/workspace/GUI/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/GUI/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="GregsProject">
+				<item value="/Users/zacharymailloux/Documents/workspace/GregsProject/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/GregsProject/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Testing">
+				<item value="/Users/zacharymailloux/Documents/workspace/Testing/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Testing/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AndrewsProject">
+				<item value="/Users/zacharymailloux/Documents/workspace/AndrewsProject/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/AndrewsProject/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 2 Lab 5">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 5/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 5/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 2 Lab 6">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 6/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 6/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 2 Lab 3">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 3/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 3/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 2 Lab 4">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 4/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 4/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 2 Lab 1">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 1/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC212HomeWork">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC212HomeWork/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC212HomeWork/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java 2 Lab 2">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 2/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java 2 Lab 2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="MaillouxMed">
+				<item value="/Users/zacharymailloux/Documents/workspace/MaillouxMed/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/MaillouxMed/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="iDtech">
+				<item value="/Users/zacharymailloux/Documents/workspace/iDtech/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/iDtech/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Dan&apos;s Final Project">
+				<item value="/Users/zacharymailloux/Documents/workspace/Dan&apos;s Final Project/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Dan&apos;s Final Project/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JOptionboxes">
+				<item value="/Users/zacharymailloux/Documents/workspace/JOptionboxes/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/JOptionboxes/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Study for exam">
+				<item value="/Users/zacharymailloux/Documents/workspace/Study for exam/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Study for exam/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="exampleprojects">
+				<item value="/Users/zacharymailloux/Documents/workspace/exampleprojects/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/exampleprojects/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Copy of Final Project">
+				<item value="/Users/zacharymailloux/Documents/workspace/Copy of Final Project/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Final%2520Project/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Final Project">
+				<item value="/Users/zacharymailloux/Documents/workspace/Final Project/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Final%20Project/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="passwordstuff">
+				<item value="/Users/zacharymailloux/Documents/workspace/passwordstuff/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/passwordstuff/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Program 1">
+				<item value="/Users/zacharymailloux/Documents/workspace/Program 1/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Program 1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Java Lab 1">
+				<item value="/Users/zacharymailloux/Documents/workspace/Java Lab 1/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Java%20Lab%201/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab5">
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab5/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab5/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 FINAL">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 FINAL/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 FINAL/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lab03">
+				<item value="/Users/zacharymailloux/Documents/workspace/lab03/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/lab03/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC212HomeWork1">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC212HomeWork1/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC212HomeWork1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 Program 1">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 1/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="programassignment2">
+				<item value="/Users/zacharymailloux/Documents/workspace/programassignment2/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/programassignment2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Slots">
+				<item value="/Users/zacharymailloux/Documents/workspace/Slots/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Slots/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="java 2 test lab 2">
+				<item value="/Users/zacharymailloux/Documents/workspace/java 2 test lab 2/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/java 2 test lab 2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="exam 2 practice p2">
+				<item value="/Users/zacharymailloux/Documents/workspace/exam 2 practice p2/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/exam 2 practice p2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 Program 4">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 4/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 4/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 Program 3">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 3/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 3/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Calculator">
+				<item value="/Users/zacharymailloux/Documents/workspace/Calculator/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Calculator/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Programming Assignment 4">
+				<item value="/Users/zacharymailloux/Documents/workspace/Programming Assignment 4/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Programming Assignment 4/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="secondlab">
+				<item value="/Users/zacharymailloux/Documents/workspace/secondlab/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/secondlab/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 Program v2">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program v2/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program v2/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="IDtechpractice">
+				<item value="/Users/zacharymailloux/Documents/workspace/IDtechpractice/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/IDtechpractice/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Kobe">
+				<item value="/Users/zacharymailloux/Documents/workspace/Kobe/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Kobe/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Imagework">
+				<item value="/Users/zacharymailloux/Documents/workspace/Imagework/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Imagework/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab08">
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab08/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab08/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Lab09">
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab09/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Lab09/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CSC 212 Program 7">
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 7/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/CSC 212 Program 7/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Minecraft">
+				<item value="/Users/zacharymailloux/Documents/workspace/Minecraft/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Minecraft/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Classwork 9-7-13">
+				<item value="/Users/zacharymailloux/Documents/workspace/Classwork 9-7-13/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Classwork 9-7-13/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Calculator GUI">
+				<item value="/Users/zacharymailloux/Documents/workspace/Calculator GUI/javadoc.xml" key="antpath"/>
+				<item value="/Users/zacharymailloux/Documents/workspace/Calculator GUI/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		<item value="582" key="DIALOG_HEIGHT"/>
+		<item value="17" key="DIALOG_Y_ORIGIN"/>
+		<item value="393" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="373" key="size.y"/>
+		<item value="738" key="size.x"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

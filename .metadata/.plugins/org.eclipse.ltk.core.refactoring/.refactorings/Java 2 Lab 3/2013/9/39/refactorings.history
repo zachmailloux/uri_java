@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;Java 2 Lab 3&apos;&#x0A;- Original project: &apos;Java 2 Lab 3&apos;&#x0A;- Original elements:&#x0A;     Abutton.java&#x0A;     Alarm.java&#x0A;     AlarmListener.java&#x0A;     BlinkingTimer.java&#x0A;     Lab_BlinkingTimer.java" description="Delete elements" element1="Alarm.java" element2="Lab_BlinkingTimer.java" element3="Abutton.java" element4="BlinkingTimer.java" element5="AlarmListener.java" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1379957729616" subPackages="false" version="1.0"/>
+</session>

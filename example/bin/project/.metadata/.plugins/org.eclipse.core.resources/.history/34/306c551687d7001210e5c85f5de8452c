@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SeasonChecker {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		
+		String month;
+		
+		System.out.println("Enter any month: ");
+		month = input.nextLine();
+		if{
+		(month.equals("December") || month.equals("January") || month.equals("February")
+	}
+		if{
+		(month.equals("December") || month.equals("January") || month.equals("February")
+}
